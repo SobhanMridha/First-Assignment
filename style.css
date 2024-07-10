@@ -350,3 +350,91 @@ iframe {
 .mongodb img {
   margin-right: 24px;
 }
+
+/* support section  */
+
+.support-section-container {
+  border-radius: 16px;
+  background-image: url(assets/handshake.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 313px;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+.support-info {
+  padding: 64px 48px;
+  text-align: center;
+}
+
+.support-info h4 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.support-info p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-div input {
+  width: 548px;
+  color: #0d132166;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 19px 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-right: 16px;
+  border: none;
+}
+
+.text button {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: none;
+}
+
+.text button:hover {
+  color: white;
+  background-color: #6aa6b8;
+}
+
+/* footer section  */
+
+.footer-info {
+  padding: 32px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-info p {
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-info a {
+  margin-right: 24px;
+}
