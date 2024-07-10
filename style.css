@@ -6,6 +6,10 @@
   font-family: "Azeret Mono";
 }
 
+main {
+  margin: 74px 150px;
+}
+
 /* repeated part */
 
 .paragraph {
@@ -100,10 +104,6 @@ nav button:hover {
 
 /* why web dev section */
 
-.dev-container {
-  margin: 74px 150px;
-}
-
 .dev-contant {
   padding: 80px 97px;
   border-radius: 16px;
@@ -192,8 +192,12 @@ nav button:hover {
 
 /* inspiration section  */
 
+.inspiration-container {
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+
 .inspiration-contant {
-  margin: 0 150px 150px;
   text-align: center;
 }
 
@@ -211,7 +215,70 @@ iframe {
 
 .youtube-video {
   padding: 32px;
-  border: 1px solid rgba(13, 19, 33, 0.20);
+  border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
 }
 
+/* current target section  */
+
+.target-container {
+  margin-bottom: 111px;
+}
+
+.target-contant {
+  text-align: center;
+}
+
+.target-contant h4 {
+  margin-bottom: 24px;
+}
+
+.target-contant p {
+  margin-bottom: 48px;
+}
+
+/* card section  */
+
+.cards {
+  display: flex;
+}
+
+.card {
+  text-align: left;
+  padding: 40px;
+  border-radius: 16px;
+  margin-right: 24px;
+}
+
+.left-card {
+  background: rgba(255, 76, 30, 0.09);
+}
+
+.middle-card {
+  background: rgba(0, 76, 232, 0.09);
+}
+
+.right-card {
+  background: rgba(255, 223, 0, 0.09);
+}
+
+.card img {
+  margin-bottom: 24px;
+}
+
+.card h5 {
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.card p {
+  margin-bottom: 24px;
+}
+
+.card a {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 700;
+}
