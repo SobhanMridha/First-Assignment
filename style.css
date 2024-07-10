@@ -3,9 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-* {
   font-family: "Azeret Mono";
 }
 
@@ -144,8 +141,6 @@ nav button:hover {
   opacity: 0.7;
 }
 
-
-
 .btn:hover {
   cursor: pointer;
   color: white;
@@ -194,3 +189,29 @@ nav button:hover {
 .i-learn p {
   margin-bottom: 32px;
 }
+
+/* inspiration section  */
+
+.inspiration-contant {
+  margin: 0 150px 150px;
+  text-align: center;
+}
+
+.inspiration-contant h4 {
+  margin-bottom: 24px;
+}
+
+.inspiration-contant p {
+  margin-bottom: 48px;
+}
+
+iframe {
+  border-radius: 16px;
+}
+
+.youtube-video {
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.20);
+  border-radius: 16px;
+}
+
