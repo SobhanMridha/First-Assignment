@@ -282,3 +282,71 @@ iframe {
   font-size: 16px;
   font-weight: 700;
 }
+
+/* next target section  */
+
+.next-target-container {
+  margin-bottom: 50px;
+}
+
+.next-target-content h4 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.next-target-content > p {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.mern h3 {
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.mern p {
+  margin-bottom: 24px;
+}
+
+.mern a {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.react {
+  display: flex;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  margin-bottom: 24px;
+}
+
+.react img {
+  margin-right: 24px;
+}
+
+.node {
+  display: flex;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  margin-bottom: 24px;
+}
+
+.node img {
+  margin-right: 24px;
+}
+
+.mongodb {
+  display: flex;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+}
+
+.mongodb img {
+  margin-right: 24px;
+}
